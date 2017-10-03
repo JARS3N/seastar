@@ -12,12 +12,14 @@ Imports:
         shinyStar (>= 0.0.1),
         adminKraken (>= 0.1.1),
         door (>= 0.1.5),
-        xprt (>= 0.1.0)
+        xprt (>= 0.1.0),
+        lightleak (>= 0.1.0)
 Remotes: 
         Github::Jars3n/asyr,
         Github::Jars3n/shinyStar,
         Github::Jars3n/adminKraken,
         Github::Jars3n/door,
-        Github::Jars3n/xprt
+        Github::Jars3n/xprt,
+        Github::Jars3n/lightleak
 License: none
 LazyData: TRUE
