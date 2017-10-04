@@ -17,7 +17,7 @@ Imports:
         timeconstant (>= 0.1.0),
         outliers (>= 0.1.0),
         instrument (>= 0.1.0),
-        dryqc( >= 0.1.0),
+        dryqc(>= 0.1.0),
         bufferfactor (>= 0.1.0)
 Remotes: 
         Github::Jars3n/asyr,
