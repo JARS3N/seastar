@@ -17,7 +17,8 @@ Imports:
         timeconstant (>= 0.1.0),
         outliers (>= 0.1.0),
         instrument (>= 0.1.0),
-        dryqc( >= 0.1.0)
+        dryqc( >= 0.1.0),
+        bufferfactor (>= 0.1.0)
 Remotes: 
         Github::Jars3n/asyr,
         Github::Jars3n/shinyStar,
@@ -28,6 +29,7 @@ Remotes:
         Github::Jars3n/timeconstant,
         Github::Jars3n/outliers,
         Github::Jars3n/instrument,
-        Github::Jars3n/dryqc
+        Github::Jars3n/dryqc,
+        Github::Jars3n/bufferfactor
 License: none
 LazyData: TRUE
