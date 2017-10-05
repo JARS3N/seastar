@@ -1,10 +1,19 @@
 .onLoad <- function(libname = find.package("seastar"), pkgname = "seastar") {
-  .autoUp("seastar")
+    #CheckforDataStash();
+    autoUpGithub('seastar')
+   # if(Sys.getenv("USERNAME")=='mapedone'){
+     #   for(i in 1:30) print("HELLO MATT!!!")
+     #   }
 }
 
-.autoUp<-function(pack){
-  # mostly borrowed from Adam Lee Perelman's answer here: http://stackoverflow.com/a/33738713
-  # pack<-gsub("[:]{2}[A-Z|a-z|0-9]+","",deparse(sys.call()[[1]]))
+givename<-function(u,splits=": "){
+  Q <-strsplit(u,split=splits);
+  out<-Q[[1]][2];
+  names(out)<-Q[[1]][1];
+  out
+}
+
+autoUpGithub<-function(pack){
   testUrl <- function(url) {
     out <- tryCatch(
       {
@@ -17,13 +26,13 @@
     return(out)
   }
   pkg<-packageDescription(pack)$URL
-  GETS<-"https://raw.githubusercontent.com/JARS3N/seastar/master/DESCRIPTION"
-  if (testUrl(GETS)==FALSE){
-    return(
-      message("Not able to communicate with repository & unable to check for updates")
-           )}
+  GETS<-paste0("https://raw.githubusercontent.com/",pkg,"/master/DESCRIPTION")
+  if (testUrl(GETS)==FALSE){return(message("Can't seem to contact github repo\n will not update."))}
   ongit<- gsub("Version: ","",grep("Version: ",readLines(GETS,warn=F),value=T))
-  if (numeric_version(ongit)>utils::packageVersion(pack)){
-    devtools::install_github("JARS3N/seastar",quiet=TRUE)
-  }
+  if (ongit!=utils::packageVersion(pack)){
+    message(paste0("Github version differs from installed version \n update",pack))
+    devtools::install_github(gsub("https://github.com/","",pkg),quite=TRUE,dependencies = T,quick=T)
+  }else{message(paste0("Github version is identical to installed \n no update for ",pack))}
 }
+
+
