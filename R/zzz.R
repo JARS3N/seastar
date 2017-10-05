@@ -24,6 +24,6 @@
            )}
   ongit<- gsub("Version: ","",grep("Version: ",readLines(GETS,warn=F),value=T))
   if (numeric_version(ongit)>utils::packageVersion(pack)){
-    devtools::install_github("https://github.com/JARS3N/seastar",quiet=TRUE)
+    devtools::install_github("JARS3N/seastar",quiet=TRUE)
   }
 }
