@@ -10,7 +10,7 @@ URL: https://github.com/JARS3N/seastar
 Imports:
         asyr (>= 0.0.4),
         shinyStar (>= 0.0.5),
-        adminKraken (>= 0.1.1),
+        adminKraken (>= 0.1.4),
         door (>= 0.1.5),
         xprt (>= 0.1.0),
         lightleak (>= 0.1.0),
