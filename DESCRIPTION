@@ -12,7 +12,7 @@ Imports:
         shinyStar (>= 0.0.5),
         adminKraken (>= 0.1.4),
         door (>= 0.1.5),
-        xprt (>= 0.1.0),
+        xprt (>= 0.1.1),
         lightleak (>= 0.1.0),
         timeconstant (>= 0.1.0),
         outliers (>= 0.1.0),
