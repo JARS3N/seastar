@@ -8,7 +8,7 @@ Maintainer: Who to complain to <JARS3N@GMAIL.COM>
 Description: package of packages...
 URL: https://github.com/JARS3N/seastar
 Imports:
-        asyr (>= 0.0.4),
+        asyr (>= 0.0.8),
         shinyStar (>= 0.0.11),
         adminKraken (>= 0.1.4),
         door (>= 0.1.5),
