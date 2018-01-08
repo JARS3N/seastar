@@ -1,7 +1,7 @@
 Package: seastar
 Type: Package
 Title: seastar
-Version: 0.0.30
+Version: 0.1.0
 Date: 2017-0906
 Author: J.Arsenault
 Maintainer: Who to complain to <JARS3N@GMAIL.COM>
@@ -9,7 +9,7 @@ Description: package of packages...
 URL: https://github.com/JARS3N/seastar
 Imports:
         asyr (>= 0.0.10),
-        shinyStar (>= 0.0.13),
+        shinyStar (>= 0.0.14),
         adminKraken (>= 0.1.4),
         door (>= 0.1.5),
         xprt (>= 0.1.1),
@@ -19,8 +19,8 @@ Imports:
         instrument (>= 0.1.0),
         dryqc(>= 0.1.4),
         bufferfactor (>= 0.1.0),
-        launch (>= 0.1.5),
-        seascripts(>= 0.1.5),
+        launch (>= 0.1.6),
+        seascripts(>= 0.2.0),
         details(>= 0.1.3),
         bindrcpp,
         httpuv,
