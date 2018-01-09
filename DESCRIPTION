@@ -1,14 +1,14 @@
 Package: seastar
 Type: Package
 Title: seastar
-Version: 0.1.1
+Version: 0.1.2
 Date: 2017-0906
 Author: J.Arsenault
 Maintainer: Who to complain to <JARS3N@GMAIL.COM>
 Description: package of packages...
 URL: https://github.com/JARS3N/seastar
 Imports:
-        asyr (>= 0.1.0),
+        asyr (>= 0.1.1),
         shinyStar (>= 0.0.14),
         adminKraken (>= 0.1.4),
         door (>= 0.1.5),
