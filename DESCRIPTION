@@ -9,7 +9,7 @@ Description: package of packages...
 URL: https://github.com/JARS3N/seastar
 Imports:
         asyr (>= 0.1.6),
-        shinyStar (>= 0.0.15),
+        shinyStar (>= 0.0.16),
         adminKraken (>= 0.1.4),
         door (>= 0.1.5),
         xprt (>= 0.1.1),
