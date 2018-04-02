@@ -15,7 +15,7 @@ Imports:
         xprt (>= 0.1.1),
         lightleak (>= 0.1.0),
         timeconstant (>= 0.1.0),
-        outliers (>= 0.1.4),
+        outliers (>= 0.1.5),
         instrument (>= 0.1.0),
         dryqc(>= 0.1.4),
         bufferfactor (>= 0.1.0),
