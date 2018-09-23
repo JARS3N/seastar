@@ -28,7 +28,7 @@ Imports:
 Remotes: 
         Github::Jars3n/asyr,
         Github::Jars3n/shinyStar,
-        url::https://spock.lkq.agilent.com:3838/jarsenault/adminKraken-master.zip,
+        url::https://spock.lkq.agilent.com:3838/jarsenault/adminKraken.zip,
         Github::Jars3n/door,
         Github::Jars3n/xprt,
         Github::Jars3n/lightleak,
