@@ -1,7 +1,7 @@
 Package: seastar
 Type: Package
 Title: seastar
-Version: 0.2.6
+Version: 0.2.7
 Date: 2017-0906
 Authors@R: person("Jon", "Arsenault", email = "Arsenault.Jon@gmail.com", role = c("aut", "cre"))
 Description: meta package
