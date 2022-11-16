@@ -23,7 +23,8 @@ Imports:
   details(>= 0.1.3),
   bindrcpp,
   httpuv,
-  htmlwidgets
+  htmlwidgets,
+  tinytex
 Remotes: 
   Github::Jars3n/asyr,
   Github::Jars3n/shinyStar,
