@@ -1,7 +1,7 @@
 Package: seastar
 Type: Package
 Title: seastar
-Version: 0.2.7
+Version: 0.2.8
 Date: 2017-0906
 Authors@R: person("Jon", "Arsenault", email = "Arsenault.Jon@gmail.com", role = c("aut", "cre"))
 Description: meta package
@@ -24,7 +24,10 @@ Imports:
   bindrcpp,
   httpuv,
   htmlwidgets,
-  tinytex
+  tinytex,
+  pp,
+  wetqc,
+  foam
 Remotes: 
   Github::Jars3n/asyr,
   Github::Jars3n/shinyStar,
@@ -39,5 +42,8 @@ Remotes:
   Github::Jars3n/bufferfactor,
   Github::Jars3n/launch,
   Github::Jars3n/seascripts
+  Github::Jars3n/pp,
+  Github::Jars3n/wetqc,
+  Github::Jars3n/foam
 License: none
 LazyData: TRUE
