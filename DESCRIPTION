@@ -28,6 +28,7 @@ Imports:
   pp,
   wetqc,
   foam,
+  plates,
   barval,
   pKa
 Remotes: 
@@ -48,6 +49,7 @@ Remotes:
   Github::Jars3n/wetqc,
   Github::Jars3n/foam,
   Github::Jars3n/barval,
-  Github::Jars3n/pKa
+  Github::Jars3n/pKa,
+  Github::Jars3n/plates
 License: none
 LazyData: TRUE
