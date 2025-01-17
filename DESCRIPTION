@@ -27,7 +27,9 @@ Imports:
   tinytex,
   pp,
   wetqc,
-  foam
+  foam,
+  barval,
+  pKa
 Remotes: 
   Github::Jars3n/asyr,
   Github::Jars3n/shinyStar,
@@ -44,6 +46,8 @@ Remotes:
   Github::Jars3n/seascripts
   Github::Jars3n/pp,
   Github::Jars3n/wetqc,
-  Github::Jars3n/foam
+  Github::Jars3n/foam,
+  Github::Jars3n/barval,
+  Github::Jars3n/pKa
 License: none
 LazyData: TRUE
